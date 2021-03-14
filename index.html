@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Right</title>
+    <link rel="stylesheet" href="Style/stle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="https://allright.com/ua/"><img src="img/logo.png"></a>
+            <a href="https://allright.com/ua/">веб версия</a>
+        </nav>
+        <div class="main_img">
+            <img src="img/image%20562.png" alt="img">
+        </div>
+    </header>
+    <div class="header_border"></div>
+    <article>
+
+        <h1>Ваш платеж прошел успешно!</h1>
+        <p>Это значит, что вы стали на шаг ближе к идеальному английскому! </p>
+        <p class="payment-info">Сумма: <span> {{ params.SUMM }}</span></p>
+        <p class="payment-info">Назначение: <span>{{ params.DESCRIPTION }}</span></p>
+        <input type="button" value="Забронировать урок" class="booking-btn">
+        <div class="free_lesson">
+            <h1>Бесплатный урок за честный отзыв</h1>
+            <p> Хотите получить бесплатное занятие для своего ребенка?
+                Нет ничего проще! Поделитесь мнением об изучении английского
+                в нашей школе, отправьте скрин с отзывом нашему администратору
+                и получите бонус в виде бесплатного урока – он будет ждать вас
+                в личном кабинете.Выберете один из сервисов,
+                на котором хотите оставить отзыв </p>
+            <div class="input_section">
+                <input type="button" value="FACEBOOK" onClick="window.location='https://uk-ua.facebook.com/'">
+                <input type="button" value="TRUSPILOT.COM" onClick="window.location='http://ww25.truspilot.com/?subid1=20210315-0113-40e3-8216-98c615f0c0ba'">
+                <input type="button" value="OTZOVIK.COM" onClick="window.location='https://otzovik.com/'">
+                <input type="button" value="ZOON.RU" onClick="window.location='https://zoon.ru/'">
+                <input type="button" value="YELL.RU" onClick="window.location='https://www.yell.ru/moscow/'">
+                <input type="button" value="ПОДРОБНЕЕ О СКИДКАХ">
+            </div>
+        </div>
+    </article>
+</body>
+</html>

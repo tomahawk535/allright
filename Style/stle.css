@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  max-width: 700px;
+  background-color: #9C27B0;
+  margin: 0 auto;
+}
+header nav {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.875rem 0;
+}
+header nav a {
+  text-decoration: none;
+  color: #929292;
+  font-size: 12px;
+}
+header .main_img {
+  margin: 0 auto;
+  width: 160px;
+  background: linear-gradient(#fff 50%, transparent);
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+}
+header .main_img img {
+  position: relative;
+  top: -40px;
+  width: 100%;
+}
+
+.header_border {
+  height: 23px;
+  background-image: url("../img/border.png");
+  width: 100%;
+  max-width: 700px;
+  margin: -1rem auto 0;
+  z-index: 999;
+}
+
+article {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4.375rem 5%;
+  z-index: 999;
+}
+article h1 {
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+article p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+article .payment-info {
+  color: #969696;
+}
+article .payment-info span {
+  color: #000;
+}
+article .booking-btn {
+  margin: 1rem 11.25rem 3.125rem;
+  background-color: #9C27B0;
+  color: #fff;
+  padding: 1.3125rem 2.1875rem;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+article .booking-btn:hover {
+  cursor: pointer;
+}
+article .free_lesson {
+  background-color: #F3F5FE;
+  border-radius: 20px;
+  padding: 2.625rem 1.875rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article .free_lesson h1 {
+  font-size: 18px;
+}
+article .free_lesson p {
+  font-size: 16px;
+}
+article .free_lesson .input_section {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article .free_lesson .input_section input {
+  background-color: #F3F5FE;
+  border-radius: 30px;
+  border: 1px solid #9C27B0;
+  color: #9C27B0;
+  font-size: 11px;
+  padding: 1rem 0.5rem;
+  flex-basis: 30%;
+  margin: 0.625rem 0;
+  outline: none;
+}
+article .free_lesson .input_section input:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=stle.css.map */

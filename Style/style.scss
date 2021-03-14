@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+header {
+  max-width: 700px;
+  background-color: #9C27B0;
+  margin: 0 auto;
+  nav {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 0;
+    a {
+      text-decoration: none;
+      color: #929292;
+      font-size: 12px;
+    }
+  }
+  .main_img {
+    margin: 0 auto;
+    width: 160px;
+    background: linear-gradient(#fff 50%, transparent) ;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    img {
+      position: relative;
+      top: -40px;
+      width: 100%;
+    }
+  }
+}
+.header_border {
+  height: 23px;
+  background-image: url("../img/border.png");
+  width: 100%;
+  max-width: 700px;
+  margin: -1rem auto 0;
+  z-index: 999;
+}
+article {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4.375rem 5%;
+  z-index: 999;
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .payment-info {
+    color: #969696;
+    span {
+      color: #000;
+    }
+  }
+  .booking-btn {
+    margin: 1rem 11.25rem 3.125rem;
+    background-color: #9C27B0;
+    color: #fff;
+    padding: 1.3125rem 2.1875rem;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .free_lesson {
+    background-color: #F3F5FE;
+    border-radius: 20px;
+    padding: 2.625rem 1.875rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    h1 {
+      font-size: 18px;
+    }
+    p{
+      font-size: 16px;
+    }
+    .input_section {
+      display: flex;
+      flex-basis: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      input {
+        background-color: #F3F5FE;
+        border-radius: 30px;
+        border: 1px solid #9C27B0;
+        color: #9C27B0;
+        font-size: 11px;
+        padding: 1rem 0.5rem;
+        flex-basis: 30%;
+        margin: 0.625rem 0;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}
